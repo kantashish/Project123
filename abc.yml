@@ -7,4 +7,4 @@
       docker_image:
         path: /root/project123/
         name: image
-        tag: latest  
+        tag: latest 
