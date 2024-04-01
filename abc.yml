@@ -1,0 +1,10 @@
+---
+- name: Build docker image from docker file
+  hosts: all
+
+  tasks: 
+    - name: Build Docker image
+      docker_image:
+        path: /root/project123/
+        name: image
+        tag: latest  
