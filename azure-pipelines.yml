@@ -1,3 +1,8 @@
+pool:
+  name: Default  # Replace with your actual agent pool name
+  demands:
+    - Agent.OS -equals Windows  # Or Linux/Mac, based on your setup
+
 variables:
   buildConfiguration: 'Release'
 
